@@ -1,10 +1,10 @@
 <template>
-  <div id="app">
-    <TodoHeader></TodoHeader>
-    <TodoInput></TodoInput>
-    <TodoList></TodoList>
-    <TodoFooter></TodoFooter>
-  </div>
+	<div id="app">
+		<TodoHeader></TodoHeader>
+		<TodoInput></TodoInput>
+		<TodoList></TodoList>
+		<TodoFooter></TodoFooter>
+	</div>
 </template>
 
 <script>
@@ -14,13 +14,12 @@ import TodoList from './components/TodoList.vue'
 import TodoFooter from './components/TodoFooter.vue'
 
 export default {
-  name: 'App',
-  components: {
-    TodoHeader: TodoHeader,
-    TodoInput: TodoInput,
-    TodoList: TodoList,
-    TodoFooter: TodoFooter
-  }
+	components: {
+	  TodoHeader: TodoHeader,
+	  TodoInput: TodoInput,
+	  TodoList: TodoList,
+	  TodoFooter: TodoFooter
+	}
 }
 </script>
 
