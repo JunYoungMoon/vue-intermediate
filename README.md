@@ -4,7 +4,12 @@ Vue.js 중급 인프런 강의 리포지토리입니다.
 
 브랜치
 1. components-design-template 
+ - 기본 템플릿
 2. components-design-ux
-3. components-design-ux-pe 
-4. components-design-refactoring 
+ - 화면 구성
+3. components-design-ux-pe
+ - props,event 방식추가 
+4. components-design-refactoring
+ - 전체적인 리팩토링 
 5. components-design-modal
+ - 입력값이 빈값일때 모달창 띄우기
