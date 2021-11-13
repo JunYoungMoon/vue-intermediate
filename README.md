@@ -8,4 +8,4 @@ Branch
 3. components-design-ux-pe (props,event 방식추가)
 4. components-design-refactoring (전체적인 리팩토링)
 5. components-design-modal (입력값이 없을때 모달창 띄우기) 
-6. ..
+6. es6 (es6 문법적용)
