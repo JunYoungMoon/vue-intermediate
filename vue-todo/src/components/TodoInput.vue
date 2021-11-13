@@ -21,14 +21,15 @@ import Modal from './common/Modal.vue'
 	
 export default {
 
-	data : function(){
+	data:() => {
 		return {
 			newTodoItem : '',
 			showModal:false
 		}
 	},
 	methods:{
-		addTodo:function(){
+		//addTodo: () => { 안됨
+		addTodo(){
 			if(this.newTodoItem !== ''){
 				this.$emit('addItem',this.newTodoItem);
 				this.clearInput();
@@ -36,12 +37,13 @@ export default {
 				this.showModal = !this.showModal;
 			}
 		},
-		clearInput:function(){
+		//clearInput: () => { 안됨
+		clearInput: () => {
 			this.newTodoItem = '';
 		}
 	},
 	components:{
-		Modal:Modal
+		Modal
 	}
 }
 </script>

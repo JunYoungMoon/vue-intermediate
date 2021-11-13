@@ -16,11 +16,11 @@
 export default {
 	props:['propsdata'],
 	methods:{
-		toggleComplete: function(todoItem){
+		toggleComplete(todoItem){
 			this.$emit('toggleComplete',todoItem);
 
 		},
-		removeTodo:function(todoItem,index){
+		removeTodo(todoItem,index){
 			this.$emit('removeTodo',todoItem,index);
 		}
 	}
