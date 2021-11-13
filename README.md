@@ -2,7 +2,7 @@
 
 Vue.js 중급 인프런 강의 리포지토리입니다.
 
-브랜치
+#브랜치
 1. components-design-template (기본 템플릿)
 2. components-design-ux (화면 구성)
 3. components-design-ux-pe (props,event 방식추가)
