@@ -9,4 +9,5 @@ Branch
 4. components-design-refactoring (전체적인 리팩토링)
 5. components-design-modal (입력값이 없을때 모달창 띄우기) 
 6. es6 (es6 문법적용)
-7. ...
+7. installVuex (vuex 설치및 store.js 추가)
+8. ..
