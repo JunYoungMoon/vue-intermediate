@@ -31,14 +31,17 @@ export default {
 		//addTodo: () => { 안됨
 		addTodo(){
 			if(this.newTodoItem !== ''){
-				this.$emit('addItem',this.newTodoItem);
+				//this.$emit('addItem',this.newTodoItem);
+				const item = this.newTodoItem.trim();
+				this.$store.commit('addOneItem', item);
+				
 				this.clearInput();
 			}else{
 				this.showModal = !this.showModal;
 			}
 		},
 		//clearInput: () => { 안됨
-		clearInput: () => {
+		clearInput() {
 			this.newTodoItem = '';
 		}
 	},
