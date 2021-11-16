@@ -11,4 +11,5 @@ Branch
 6. es6 (es6 문법적용)
 7. installVuex (vuex 설치및 store.js 추가)
 8. vuex/mutations (App.vue 내용을 store.js로 이동 mutations 활용)
-9. ...
+9. vuex/helper (mapGetters, mapMutations 활용)
+10. ..
