@@ -12,4 +12,4 @@ Branch
 7. installVuex (vuex 설치및 store.js 추가)
 8. vuex/mutations (App.vue 내용을 store.js로 이동 mutations 활용)
 9. vuex/helper (mapGetters, mapMutations 활용)
-10. ..
+10. vuex/multiple-modules (ES6 모듈을 사용하여 getter,mutations 모듈화)
